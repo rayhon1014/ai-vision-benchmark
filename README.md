@@ -59,16 +59,41 @@ npm run dev
 
 <br>
 
-# Benchmarks
+# Vision LLM Benchmarks
+* **VQAv2** - Question/ Answering
+* **GQA** - Question/ Answering (Reasoning)
+* **TextQA** - Extract Text from Images
+* **TallyQA (simple)** - Counting
+* **TallyQA (full)** - Counting
+* **VizWiz** 
 
 | Model | VQAv2 | GQA | TextVQA | TallyQA (simple) | TallyQA (full) |
 | --- | --- | --- | --- | --- | --- |
-| moondream1 | 74.7 | 57.9 | 35.6 | - | - |
-| **moondream2** (latest) | 79.4 | 63.1 | 57.2 | 82.1 | 76.6 |
+| LLaVA-1.5 (13.3B) | 80.0 | 63.3 | 61.3 | - | - |
+| LLaVA-1.5 (7.3B) | 78.5 | 62.0 | 58.2 | - | - |
+| MC-LLaVA-3B (3B) | 64.2 | 49.6 | 38.6 | - | - |
+| LLaVA-Phi (3B) | 71.4 | - | 48.6 | - | - |
+| moondream1 | 74.3 | 56.3 | 39.8 | - | - |
+| moondream2 (latest) | 79.4 | 63.1 | 57.2 | 82.1 | 76.6 |
 
 <br>
 
-## Test Result
+# General LLM Benchmark
+These are the most commonly utilized LLM Benchmarks among models’ technical reports:
+
+* **MMLU** - Multitask accuracy
+* **HellaSwag** - Reasoning
+* **HumanEval** - Python coding tasks
+* **BBHard** - Probing models for future capabilities
+* **GSM-8K** - Grade school math
+* **MATH** - Math problems with 7 difficulty levels
+
+![](docs/llm-benchmark.png)
+
+
+<br>
+
+# Test Result
 
 | Image | Difficulty | Model | Result |
 | --- | --- | --- | --- |
@@ -76,6 +101,12 @@ npm run dev
 | ![](test/benchmark/images/product-hardware.jpg) | 3 | Moondream | **What is this?**<br>This is a computer server rack, which is a device used to store and manage multiple computer servers. The rack is filled with various computer servers, each with their own dedicated space and power supply. The servers are connected to the rack via multiple cables, indicating that they are part of a larger system. The rack is placed on a carpeted floor, and there is a couch nearby, suggesting that the setup is in a living or entertainment area.<br><br>**What is behind the stand?**<br>Behind the stand, there is a brick wall. |
 | ![](test/benchmark/images/table-price-d3.png) | 3 | Gemini-1.5-flash-001 | ![](test/results/gemini/table-model-cost_result.png) |
 | ![](test/benchmark/images/table-formula-d9.png) | 9 | Gemini-1.5-flash-001 | ![](test/results/gemini/table-formula-d9_result.png) |
+
+
+# Price
+## Gemini
+![](docs/gemini-pricing.png)
+<br>
 
 # Image Generation
 * [Grok 2]()
@@ -85,6 +116,7 @@ npm run dev
 * [Adobe Firefly]() for integrating AI-generated images into photos
 * [DreamStudio.ai](https://dreamstudio.ai) - powered by stability.ai (ie. Stable Diffusion)
 * [Leonardo.ai](https://app.leonardo.ai/) - high quality
+* [Tensor.art](https://tensor.art/) - free image generation with different models and you can use it to generate images to train your model.
 
 ## Dreamstudio.ai
 * DreamStudio (Stable Diffusion's web app) is the only major AI picture generator that still offers free credits. 
