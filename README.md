@@ -106,7 +106,7 @@ npm run deploy
 # References
 * [HellaSwag: Understanding the LLM Benchmark for Commonsense Reasoning](https://deepgram.com/learn/hellaswag-llm-benchmark-guide)
 * [Youtube: TensortArt + Flux Training : Train FLUX-1 for FREE with Custom Images!](https://www.youtube.com/watch?v=5pcBOJ0xsRw)
-* [An In-Depth Look at Elo and MMLU Scores for Leading Language Models](https://www.linkedin.com/pulse/in-depth-look-elo-mmlu-scores-leading-language-models-rishi-yadav-c4sqf/)
+* [[An In-Depth Look at Elo and MMLU Scores for Leading Language Models](https://medium.com/tr-labs-ml-engineering-blog/guidelines-for-evaluating-large-language-models-3d57ba76656a)]([https://www.linkedin.com/pulse/in-depth-look-elo-mmlu-scores-leading-language-models-rishi-yadav-c4sqf/](https://medium.com/tr-labs-ml-engineering-blog/guidelines-for-evaluating-large-language-models-3d57ba76656a)
 
 
 
