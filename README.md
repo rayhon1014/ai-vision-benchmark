@@ -90,6 +90,38 @@ These are the most commonly utilized LLM Benchmarks among models’ technical re
 
 ![](docs/llm-benchmark2.png)
 
+## GPQA (General Purpose Question Answering)
+**What it Tests:** GPQA benchmarks measure a model's ability to answer a wide range of general-purpose questions. These can include questions from various domains, including common knowledge, current events, and specialized fields.<br><br>
+**Key Skills Tested:** General knowledge, reasoning, language understanding, and context comprehension.<br><br>
+
+## MMLU (Massive Multitask Language Understanding)
+**What it Tests:** MMLU evaluates a model's ability to perform across a diverse set of language-based tasks. It includes questions from 57 different subjects, covering everything from elementary mathematics to advanced science topics.<br><br>
+**Key Skills Tested:** Multitask learning, subject-specific knowledge, language understanding.<br><br>
+
+## MMLU-Pro
+**What it Tests:** MMLU-Pro is likely a more advanced or professional variant of MMLU, focusing on more specialized or challenging tasks within those 57 subjects.<br><br>
+**Key Skills Tested:** Advanced subject-specific knowledge, professional-level reasoning.<br><br>
+
+## MATH
+**What it Tests:** The MATH benchmark assesses a model's mathematical reasoning abilities, from basic arithmetic to advanced topics such as calculus and linear algebra.<br><br>
+**Key Skills Tested:** Numerical reasoning, problem-solving, symbolic manipulation, and mathematical logic.<br><br>
+
+## HumanEval
+**What it Tests:** HumanEval benchmarks assess a model’s ability to write correct and functional code based on natural language prompts. It usually involves generating code that solves specific programming problems.<br><br>
+**Key Skills Tested:** Coding ability, syntax understanding, logical problem-solving, and programming language fluency.<br><br>
+
+## MMMU
+**What it Tests:** MMMU likely refers to a benchmark that tests multimodal language understanding, which could involve text, images, and potentially other data types like audio or video. The specific benchmark may focus on how well the model integrates and reasons across different types of media.<br><br>
+**Key Skills Tested:** Multimodal reasoning, text-image synthesis, and integrated media understanding.<br><br>
+
+## MathVista
+**What it Tests:** MathVista seems to be another benchmark focused on mathematics, potentially with a focus on more visualization-based or application-based mathematical tasks.<br><br>
+**Key Skills Tested:** Applied mathematics, problem-solving with visual components, and mathematical reasoning.<br><br>
+
+## DocVQA
+**What it Tests:** DocVQA benchmarks evaluate how well a model can answer questions based on the content of documents. This typically involves understanding text within complex layouts, tables, forms, and scanned documents.<br><br>
+**Key Skills Tested:** Document understanding, OCR (Optical Character Recognition), text comprehension, and information extraction.<br><br>
+
 
 <br>
 
