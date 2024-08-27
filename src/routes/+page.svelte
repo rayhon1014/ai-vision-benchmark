@@ -111,7 +111,7 @@
 </script>
 
 <div class="container">
-	<h1>Floor is Llava</h1>
+	<h1>Image To Text</h1>
 	<div
 		class="upload-area {isDragging ? 'dragging' : ''}"
 		role="button"
@@ -150,24 +150,12 @@
 		<div class="description">{description}</div>
 	{/if}
 	<div class="footer">
-		<p>
-			Built with 🧡 on <a href="https://developers.cloudflare.com/workers-ai/" target="_blank"
-				>Workers AI</a
-			>
-		</p>
-		<p>
-			Learn more about <a
-				href="https://developers.cloudflare.com/workers-ai/privacy/"
-				target="_blank">Cloudflare AI data and privacy</a
-			>
-		</p>
-		<p>
+		<div>
 			👀 the <a
-				href="https://github.com/craigsdennis/floor-is-llava-workers-ai"
+				href="https://github.com/rayhon1014/ai-vision-benchmark"
 				target="_blank">Workers AI code</a
 			>
-		</p>
-
+		</div>
 	</div>
 </div>
 
