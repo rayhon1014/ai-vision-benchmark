@@ -13,40 +13,31 @@ How much AI can see and draw? This is one of the most fascinated space that many
 
 <br>
 
-# Test out Llava over Cloudflare Worker AI
+# Demo Code
 
-This is an example repo to explore using the AI Vision model [Llava](https://developers.cloudflare.com/workers-ai/models/llava-1.5-7b-hf/) hosted on Cloudflare Workers AI.
+This is an example repo to explore using the AI Vision model [Llava](https://developers.cloudflare.com/workers-ai/models/llava-1.5-7b-hf/) hosted on Cloudflare Workers AI. It showcase few technologies in used:
 
-This is a [SvelteKit](https://kit.svelte.dev/) app hosted on [Pages](https://pages.cloudflare.com).
+* [SvelteKit](https://kit.svelte.dev/) - javascript framework
+* [Cloudflare Pages](https://pages.cloudflare.com) - hosted the demo created by this code in serverless architecture
+* [Cloudflare Worker AI](https://developers.cloudflare.com/workers-ai/models/llava-1.5-7b-hf) - This demo makes use of its image-to-text model Llava-1.5-7b
 
 
-[<img src="https://img.youtube.com/vi/MLbo7MGY_lU/0.jpg">](https://youtu.be/MLbo7MGY_lU "AI Can See Clearly Now - YouTube walkthrough")
-<br>
-
-## Use the Template
-
-Press the Use Template button on GitHub
-Create a new repository in your account.
-Head to https://dash.cloudflare.com > Workers & Pages > Overview > Create > Pages > Connect to Git
-Choose SvelteKit (and leave the defaults)
-
----
-
-OR
-
----
+## Launch Demo Over Cloudflare
+* Fork this project to your own repo
+* Head to https://dash.cloudflare.com > Workers & Pages > Overview > Create > Pages > Connect to Git
+* Choose SvelteKit (and leave the defaults)
 
 ## Run and deploy it locally
 
 ```bash
-# imstall
+# install
 npm install
 
 # build
 npm run dev
 
 # deploy
-npm run dev
+npm run deploy
 ```
 <br>
 
