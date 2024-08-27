@@ -105,7 +105,6 @@ These are the most commonly utilized LLM Benchmarks among models’ technical re
 ## HellaSwag (Sentence Completion)
 **What it Tests:** HellaSwag is a challenge dataset for evaluating commonsense NLI that is specially hard for state-of-the-art models, though its questions are trivial for humans (>95% accuracy)<br><br>
 **Key Skills Tested:** The main goal of HellaSwag is to evaluate whether AI models can apply commonsense reasoning to understand and predict outcomes in various scenarios, making it a crucial benchmark for assessing the depth of understanding and reasoning capabilities in natural language processing (NLP) models.
-![](docs/hellaswag-tests.png)
 
 
 ## MATH
@@ -121,6 +120,7 @@ These are the most commonly utilized LLM Benchmarks among models’ technical re
 ## MMMU
 **What it Tests:** a new benchmark designed to evaluate multimodal models on massive multi-discipline tasks demanding college-level subject knowledge and deliberate reasoning. MMMU includes 11.5K meticulously collected multimodal questions from college exams, quizzes, and textbooks, covering six core disciplines: Art & Design, Business, Science, Health & Medicine, Humanities & Social Science, and Tech & Engineering. These questions span 30 subjects and 183 subfields, comprising 30 highly heterogeneous image types, such as charts, diagrams, maps, tables, music sheets, and chemical structures.<br><br>
 **Key Skills Tested:** MMMU is designed to measure three essential skills in LMMs: perception, knowledge, and reasoning.<br><br>
+![](https://mmmu-benchmark.github.io/static/images/mmlu_example.Jpeg)
 
 ## MathVista
 **What it Tests:** MathVista seems to be another benchmark focused on mathematics, potentially with a focus on more visualization-based or application-based mathematical tasks.<br><br>
