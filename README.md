@@ -13,8 +13,9 @@ How much AI can see and draw? This is one of the most fascinated space that many
 
 <br>
 
-# Demo Code
+# Image-to-Text
 
+## Demo code
 This is an example repo to explore using the AI Vision model [Llava](https://developers.cloudflare.com/workers-ai/models/llava-1.5-7b-hf/) hosted on Cloudflare Workers AI. It showcase few technologies in used:
 
 * [SvelteKit](https://kit.svelte.dev/) - javascript framework
@@ -50,7 +51,7 @@ npm run deploy
 
 <br>
 
-# Vision LLM Benchmarks and Leaderboard
+# Leaderboard
 * **VQAv2** - Question/ Answering
 * **GQA** - Question/ Answering (Reasoning)
 * **TextQA** - Extract Text from Images
@@ -80,7 +81,8 @@ npm run deploy
 
 <br>
 
-# Image Generation Models
+# Text-to-Image
+## Popular Models
 * [Grok 2]()
 * [DALL·E 3]() for an easy-to-use AI image generator
 * [Midjourney](https://www.midjourney.com/explore?tab=top_month) for the best AI image results
@@ -89,4 +91,5 @@ npm run deploy
 * [DreamStudio.ai](https://dreamstudio.ai) - powered by stability.ai (ie. Stable Diffusion)
 * [Leonardo.ai](https://app.leonardo.ai/) - high quality
 * [Tensor.art](https://tensor.art/) - free image generation with different models and you can use it to generate images to train your model.
+
 
