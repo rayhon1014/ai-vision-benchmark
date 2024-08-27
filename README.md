@@ -1,5 +1,9 @@
 # AI Vision LLM
-How much AI can see and draw? This is one of the most fascinated space that many models are trying to tackle. We have seen so many amazing results out from there. This repo is aim to test them out and see if we can apply what they are capable of in the industry for public usage.
+How much AI can see and draw? This is one of the most fascinated space that many models are trying to tackle. We have seen so many amazing results out from there. This repo attempts to achieve few things:
+
+* Establish its own test suite with industry focus (eg. ecommerce, legal, etc)
+* Provide an easy way to run tests against a list of models at the same time.
+* Use LLM to evaluate test results and assign quality score.
 
 ## High level features
 ![](docs/ai-vision-llm-features.png)
