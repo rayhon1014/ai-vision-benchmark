@@ -9,6 +9,8 @@ How much AI can see and draw? This is one of the most fascinated space that many
 
 ## High level features
 ![](docs/ai-vision-llm-features.png)
+[source: moondream.ai](moondream.ai)
+
 <br>
 * Question/ Answer
 * Object detection
