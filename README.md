@@ -43,7 +43,7 @@ npm run deploy
 ```
 <br>
 
-# Future Vision Models To Test
+## Future Vision Models To Test
 * [Moondream](https://moondream.ai/playground)
 * [Gemini 1.5](https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/gemini-experimental)
 * [GPT-4o](https://chatgpt.com/)
@@ -51,7 +51,7 @@ npm run deploy
 
 <br>
 
-# Leaderboard
+## Leaderboard
 * **VQAv2** - Question/ Answering
 * **GQA** - Question/ Answering (Reasoning)
 * **TextQA** - Extract Text from Images
@@ -70,7 +70,7 @@ npm run deploy
 
 <br>
 
-# Test Result
+## Test Result
 
 | Image | Difficulty | Model | Result |
 | --- | --- | --- | --- |
