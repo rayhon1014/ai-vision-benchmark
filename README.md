@@ -92,4 +92,10 @@ npm run deploy
 * [Leonardo.ai](https://app.leonardo.ai/) - high quality
 * [Tensor.art](https://tensor.art/) - free image generation with different models and you can use it to generate images to train your model.
 
+# References
+* [HellaSwag: Understanding the LLM Benchmark for Commonsense Reasoning](https://deepgram.com/learn/hellaswag-llm-benchmark-guide)
+* [Youtube: TensortArt + Flux Training : Train FLUX-1 for FREE with Custom Images!](https://www.youtube.com/watch?v=5pcBOJ0xsRw)
+* [An In-Depth Look at Elo and MMLU Scores for Leading Language Models](https://www.linkedin.com/pulse/in-depth-look-elo-mmlu-scores-leading-language-models-rishi-yadav-c4sqf/)
+
+
 
