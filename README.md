@@ -79,12 +79,8 @@ npm run deploy
 | ![](test/benchmark/images/table-formula-d9.png) | 9 | Gemini-1.5-flash-001 | ![](test/results/gemini/table-formula-d9_result.png) |
 
 
-# Price
-## Gemini
-![](docs/gemini-pricing.png)
-<br>
 
-# Image Generation
+# Image Generation Models
 * [Grok 2]()
 * [DALL·E 3]() for an easy-to-use AI image generator
 * [Midjourney](https://www.midjourney.com/explore?tab=top_month) for the best AI image results
@@ -94,13 +90,3 @@ npm run deploy
 * [Leonardo.ai](https://app.leonardo.ai/) - high quality
 * [Tensor.art](https://tensor.art/) - free image generation with different models and you can use it to generate images to train your model.
 
-## Dreamstudio.ai
-* DreamStudio (Stable Diffusion's web app) is the only major AI picture generator that still offers free credits. 
-* The app is incredibly affordable and customizable; super powerful with generally great results
-* Stable diffusion is open source
-* Pricing: $1 per 100 credits (~500 images)
-![](docs/dreamstudio.png)
-
-## Adobe Firefly
-
-# Character Consistency
