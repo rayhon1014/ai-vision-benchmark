@@ -78,7 +78,7 @@ npm run deploy
 | ![](test/benchmark/images/table-price-d3.png) | 3 | Gemini-1.5-flash-001 | ![](test/results/gemini/table-model-cost_result.png) |
 | ![](test/benchmark/images/table-formula-d9.png) | 9 | Gemini-1.5-flash-001 | ![](test/results/gemini/table-formula-d9_result.png) |
 
-
+<br>
 
 # Image Generation Models
 * [Grok 2]()
