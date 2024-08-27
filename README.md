@@ -99,20 +99,29 @@ These are the most commonly utilized LLM Benchmarks among models’ technical re
 **Key Skills Tested:** Multitask learning, subject-specific knowledge, language understanding.<br><br>
 
 ## MMLU-Pro
-**What it Tests:** MMLU-Pro is likely a more advanced or professional variant of MMLU, focusing on more specialized or challenging tasks within those 57 subjects.<br><br>
+**What it Tests:** MMLU-Pro is an enhanced benchmark designed to evaluate the language understanding capabilities of LLMs across a broader and more challenging set of tasks. It builds upon the original Massive Multitask Language Understanding (MMLU) dataset by addressing several limitations and introducing new features to increase the difficulty and robustness of the evaluation..<br><br>
 **Key Skills Tested:** Advanced subject-specific knowledge, professional-level reasoning.<br><br>
 
-## MATH
-**What it Tests:** The MATH benchmark assesses a model's mathematical reasoning abilities, from basic arithmetic to advanced topics such as calculus and linear algebra.<br><br>
-**Key Skills Tested:** Numerical reasoning, problem-solving, symbolic manipulation, and mathematical logic.<br><br>
+## HellaSwag (Sentence Completion)
+**What it Tests:** HellaSwag is a challenge dataset for evaluating commonsense NLI that is specially hard for state-of-the-art models, though its questions are trivial for humans (>95% accuracy)<br><br>
+**Key Skills Tested:** The main goal of HellaSwag is to evaluate whether AI models can apply commonsense reasoning to understand and predict outcomes in various scenarios, making it a crucial benchmark for assessing the depth of understanding and reasoning capabilities in natural language processing (NLP) models.
+![](docs/hellaswag-tests.png)
 
-## HumanEval
-**What it Tests:** HumanEval benchmarks assess a model’s ability to write correct and functional code based on natural language prompts. It usually involves generating code that solves specific programming problems.<br><br>
+
+## MATH
+**What it Tests:** MATH is a new dataset of 12,500 challenging competition mathematics problems. Each problem in MATH has a full step-by-step solution which can be used to teach models to generate answer derivations and explanations.<br><br>
+**Key Skills Tested:** Numerical reasoning, problem-solving, symbolic manipulation, and mathematical logic.<br><br>
+**Leaderboard**: https://paperswithcode.com/sota/math-word-problem-solving-on-math
+
+## HumanEval (Python Coding Tasks)
+**What it Tests:** It consists of 164 original programming problems, assessing language comprehension, algorithms, and simple mathematics, with some comparable to simple software interview questions.<br><br>
 **Key Skills Tested:** Coding ability, syntax understanding, logical problem-solving, and programming language fluency.<br><br>
+**Leaderboard**: https://paperswithcode.com/sota/code-generation-on-humaneval
 
 ## MMMU
-**What it Tests:** MMMU likely refers to a benchmark that tests multimodal language understanding, which could involve text, images, and potentially other data types like audio or video. The specific benchmark may focus on how well the model integrates and reasons across different types of media.<br><br>
-**Key Skills Tested:** Multimodal reasoning, text-image synthesis, and integrated media understanding.<br><br>
+**What it Tests:** a new benchmark designed to evaluate multimodal models on massive multi-discipline tasks demanding college-level subject knowledge and deliberate reasoning. MMMU includes 11.5K meticulously collected multimodal questions from college exams, quizzes, and textbooks, covering six core disciplines: Art & Design, Business, Science, Health & Medicine, Humanities & Social Science, and Tech & Engineering. These questions span 30 subjects and 183 subfields, comprising 30 highly heterogeneous image types, such as charts, diagrams, maps, tables, music sheets, and chemical structures.<br><br>
+**Key Skills Tested:** MMMU is designed to measure three essential skills in LMMs: perception, knowledge, and reasoning.<br><br>
+![](https://mmmu-benchmark.github.io/static/images/mmlu_example.Jpeg)
 
 ## MathVista
 **What it Tests:** MathVista seems to be another benchmark focused on mathematics, potentially with a focus on more visualization-based or application-based mathematical tasks.<br><br>
