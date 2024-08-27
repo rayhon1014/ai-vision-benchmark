@@ -88,7 +88,7 @@ These are the most commonly utilized LLM Benchmarks among models’ technical re
 * **GSM-8K** - Grade school math
 * **MATH** - Math problems with 7 difficulty levels
 
-![](docs/llm-benchmark.png)
+![](docs/llm-benchmark2.png)
 
 
 <br>
