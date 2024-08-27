@@ -20,13 +20,13 @@ This is an example repo to explore using the AI Vision model [Llava](https://dev
 * [SvelteKit](https://kit.svelte.dev/) - javascript framework
 * [Cloudflare Pages](https://pages.cloudflare.com) - hosted the demo created by this code in serverless architecture
 * [Cloudflare Worker AI](https://developers.cloudflare.com/workers-ai/models/llava-1.5-7b-hf) - This demo makes use of its image-to-text model Llava-1.5-7b
-
+<br>
 
 ## Launch Demo Over Cloudflare
 * Fork this project to your own repo
 * Head to https://dash.cloudflare.com > Workers & Pages > Overview > Create > Pages > Connect to Git
 * Choose SvelteKit (and leave the defaults)
-
+<br>
 ## Run and deploy it locally
 
 ```bash
