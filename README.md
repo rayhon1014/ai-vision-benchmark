@@ -27,6 +27,7 @@ This is an example repo to explore using the AI Vision model [Llava](https://dev
 * Head to https://dash.cloudflare.com > Workers & Pages > Overview > Create > Pages > Connect to Git
 * Choose SvelteKit (and leave the defaults)
 <br>
+
 ## Run and deploy it locally
 
 ```bash
